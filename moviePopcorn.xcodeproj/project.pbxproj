@@ -14,6 +14,20 @@
 		7B1C2BA129EAEF90006E7946 /* moviePopcornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BA029EAEF90006E7946 /* moviePopcornTests.swift */; };
 		7B1C2BAB29EAEF90006E7946 /* moviePopcornUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BAA29EAEF90006E7946 /* moviePopcornUITests.swift */; };
 		7B1C2BAD29EAEF90006E7946 /* moviePopcornUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BAC29EAEF90006E7946 /* moviePopcornUITestsLaunchTests.swift */; };
+		7B1C2BBB29EAEFA0006E7946 /* SlidingTabView in Frameworks */ = {isa = PBXBuildFile; productRef = 7B1C2BBA29EAEFA0006E7946 /* SlidingTabView */; };
+		7B1C2BBD29EAF15F006E7946 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BBC29EAF15F006E7946 /* SplashScreenView.swift */; };
+		7B1C2BC029EAF198006E7946 /* BookmarkedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BBF29EAF198006E7946 /* BookmarkedView.swift */; };
+		7B1C2BC229EAF1AF006E7946 /* MovieDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BC129EAF1AF006E7946 /* MovieDetailView.swift */; };
+		7B1C2BC429EAF1BA006E7946 /* SearchMoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BC329EAF1BA006E7946 /* SearchMoviesView.swift */; };
+		7B1C2BC729EAF1EC006E7946 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BC629EAF1EC006E7946 /* DiscoverView.swift */; };
+		7B1C2BC929EAF20C006E7946 /* SlidingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BC829EAF20C006E7946 /* SlidingCard.swift */; };
+		7B1C2BCB29EAF227006E7946 /* SlidingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BCA29EAF227006E7946 /* SlidingView.swift */; };
+		7B1C2BCD29EAF243006E7946 /* TrendingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BCC29EAF243006E7946 /* TrendingCard.swift */; };
+		7B1C2BD029EAF2CC006E7946 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BCF29EAF2CC006E7946 /* Movie.swift */; };
+		7B1C2BD229EAF2E3006E7946 /* Bookmarked.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BD129EAF2E3006E7946 /* Bookmarked.swift */; };
+		7B1C2BD429EAF2F5006E7946 /* MovieDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BD329EAF2F5006E7946 /* MovieDetailsViewModel.swift */; };
+		7B1C2BD629EAF306006E7946 /* MovieDiscoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BD529EAF306006E7946 /* MovieDiscoverViewModel.swift */; };
+		7B1C2BD829EAF317006E7946 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1C2BD729EAF317006E7946 /* Results.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +58,19 @@
 		7B1C2BA629EAEF90006E7946 /* moviePopcornUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moviePopcornUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B1C2BAA29EAEF90006E7946 /* moviePopcornUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviePopcornUITests.swift; sourceTree = "<group>"; };
 		7B1C2BAC29EAEF90006E7946 /* moviePopcornUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moviePopcornUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B1C2BBC29EAF15F006E7946 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		7B1C2BBF29EAF198006E7946 /* BookmarkedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkedView.swift; sourceTree = "<group>"; };
+		7B1C2BC129EAF1AF006E7946 /* MovieDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailView.swift; sourceTree = "<group>"; };
+		7B1C2BC329EAF1BA006E7946 /* SearchMoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMoviesView.swift; sourceTree = "<group>"; };
+		7B1C2BC629EAF1EC006E7946 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		7B1C2BC829EAF20C006E7946 /* SlidingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingCard.swift; sourceTree = "<group>"; };
+		7B1C2BCA29EAF227006E7946 /* SlidingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingView.swift; sourceTree = "<group>"; };
+		7B1C2BCC29EAF243006E7946 /* TrendingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCard.swift; sourceTree = "<group>"; };
+		7B1C2BCF29EAF2CC006E7946 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		7B1C2BD129EAF2E3006E7946 /* Bookmarked.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bookmarked.swift; sourceTree = "<group>"; };
+		7B1C2BD329EAF2F5006E7946 /* MovieDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewModel.swift; sourceTree = "<group>"; };
+		7B1C2BD529EAF306006E7946 /* MovieDiscoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDiscoverViewModel.swift; sourceTree = "<group>"; };
+		7B1C2BD729EAF317006E7946 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1C2BBB29EAEFA0006E7946 /* SlidingTabView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +122,13 @@
 		7B1C2B8E29EAEF8D006E7946 /* moviePopcorn */ = {
 			isa = PBXGroup;
 			children = (
+				7B1C2BCE29EAF2C0006E7946 /* model */,
+				7B1C2BBE29EAF182006E7946 /* view */,
 				7B1C2B8F29EAEF8D006E7946 /* moviePopcornApp.swift */,
 				7B1C2B9129EAEF8D006E7946 /* ContentView.swift */,
 				7B1C2B9329EAEF8F006E7946 /* Assets.xcassets */,
 				7B1C2B9529EAEF90006E7946 /* Preview Content */,
+				7B1C2BBC29EAF15F006E7946 /* SplashScreenView.swift */,
 			);
 			path = moviePopcorn;
 			sourceTree = "<group>";
@@ -127,6 +158,40 @@
 			path = moviePopcornUITests;
 			sourceTree = "<group>";
 		};
+		7B1C2BBE29EAF182006E7946 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7B1C2BC529EAF1BF006E7946 /* DiscoverView */,
+				7B1C2BBF29EAF198006E7946 /* BookmarkedView.swift */,
+				7B1C2BC129EAF1AF006E7946 /* MovieDetailView.swift */,
+				7B1C2BC329EAF1BA006E7946 /* SearchMoviesView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		7B1C2BC529EAF1BF006E7946 /* DiscoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7B1C2BC629EAF1EC006E7946 /* DiscoverView.swift */,
+				7B1C2BC829EAF20C006E7946 /* SlidingCard.swift */,
+				7B1C2BCA29EAF227006E7946 /* SlidingView.swift */,
+				7B1C2BCC29EAF243006E7946 /* TrendingCard.swift */,
+			);
+			path = DiscoverView;
+			sourceTree = "<group>";
+		};
+		7B1C2BCE29EAF2C0006E7946 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7B1C2BCF29EAF2CC006E7946 /* Movie.swift */,
+				7B1C2BD129EAF2E3006E7946 /* Bookmarked.swift */,
+				7B1C2BD329EAF2F5006E7946 /* MovieDetailsViewModel.swift */,
+				7B1C2BD529EAF306006E7946 /* MovieDiscoverViewModel.swift */,
+				7B1C2BD729EAF317006E7946 /* Results.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +208,9 @@
 			dependencies = (
 			);
 			name = moviePopcorn;
+			packageProductDependencies = (
+				7B1C2BBA29EAEFA0006E7946 /* SlidingTabView */,
+			);
 			productName = moviePopcorn;
 			productReference = 7B1C2B8C29EAEF8D006E7946 /* moviePopcorn.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +283,9 @@
 				Base,
 			);
 			mainGroup = 7B1C2B8329EAEF8D006E7946;
+			packageReferences = (
+				7B1C2BB929EAEFA0006E7946 /* XCRemoteSwiftPackageReference "SlidingTabView" */,
+			);
 			productRefGroup = 7B1C2B8D29EAEF8D006E7946 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B1C2BC929EAF20C006E7946 /* SlidingCard.swift in Sources */,
+				7B1C2BC229EAF1AF006E7946 /* MovieDetailView.swift in Sources */,
 				7B1C2B9229EAEF8D006E7946 /* ContentView.swift in Sources */,
+				7B1C2BC029EAF198006E7946 /* BookmarkedView.swift in Sources */,
+				7B1C2BCD29EAF243006E7946 /* TrendingCard.swift in Sources */,
 				7B1C2B9029EAEF8D006E7946 /* moviePopcornApp.swift in Sources */,
+				7B1C2BD629EAF306006E7946 /* MovieDiscoverViewModel.swift in Sources */,
+				7B1C2BC729EAF1EC006E7946 /* DiscoverView.swift in Sources */,
+				7B1C2BCB29EAF227006E7946 /* SlidingView.swift in Sources */,
+				7B1C2BD829EAF317006E7946 /* Results.swift in Sources */,
+				7B1C2BD429EAF2F5006E7946 /* MovieDetailsViewModel.swift in Sources */,
+				7B1C2BBD29EAF15F006E7946 /* SplashScreenView.swift in Sources */,
+				7B1C2BD029EAF2CC006E7946 /* Movie.swift in Sources */,
+				7B1C2BD229EAF2E3006E7946 /* Bookmarked.swift in Sources */,
+				7B1C2BC429EAF1BA006E7946 /* SearchMoviesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +661,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B1C2BB929EAEFA0006E7946 /* XCRemoteSwiftPackageReference "SlidingTabView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/QuynhNguyen/SlidingTabView.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B1C2BBA29EAEFA0006E7946 /* SlidingTabView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B1C2BB929EAEFA0006E7946 /* XCRemoteSwiftPackageReference "SlidingTabView" */;
+			productName = SlidingTabView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B1C2B8429EAEF8D006E7946 /* Project object */;
 }

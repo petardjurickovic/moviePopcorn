@@ -1,8 +1,8 @@
 //
 //  moviePopcornApp.swift
-//  moviePopcorn
+//  movie3
 //
-//  Created by Obuka on 15.4.23..
+//  Created by Obuka on 5.4.23..
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct moviePopcornApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

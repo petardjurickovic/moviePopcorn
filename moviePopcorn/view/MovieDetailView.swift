@@ -116,7 +116,7 @@ struct MovieDetailView: View {
                         
                         
                         
-                    }//.offset(x: 0, y: -50)
+                    }.offset(x: 0, y: -50)
                     .padding(.leading, 30)
                     .padding(.trailing, 10)
                     
@@ -140,7 +140,7 @@ struct MovieDetailView: View {
                     }else {
                         Text("unknown genre")
                     }
-                }
+                }.offset(x: 0, y: -50)
                 .foregroundColor(.gray)
                 .padding()
             }
@@ -230,7 +230,7 @@ struct MovieDetailView: View {
                   
                 }
                 Spacer()
-            }
+            }.offset(x: 0, y: -50)
             .background(Color(red:39/255,green:40/255,blue:59/255).ignoresSafeArea())
             .foregroundColor(.white)
             .padding()

@@ -9,11 +9,10 @@ import SwiftUI
 struct SearchMoviesView: View {
     @ObservedObject var viewModel = MovieDiscoverViewModel()
     @State private var searchText = ""
-    var test = ""
     
-    @State var runtime: Int?
-      @State var genres: [String]?
-      
+    let debouncer = Debouncer(delay: 0.5)
+
+    
     
     var body: some View {
         NavigationView {
@@ -21,7 +20,7 @@ struct SearchMoviesView: View {
                 
                 ScrollView{
                     LazyVStack() {
-                      ForEach(viewModel.searchResults) { item in
+                        ForEach(viewModel.searchResults) { item in
                             HStack {
                                 VStack{
                                     AsyncImage(url: item.backdropURL) { image in
@@ -57,7 +56,7 @@ struct SearchMoviesView: View {
                                             
                                             Image(systemName: "calendar")
                                             Text(String(item.release_date.prefix(4)))
-
+                                            
                                         }.padding(.bottom, 3)
                                         
                                     }
@@ -78,8 +77,10 @@ struct SearchMoviesView: View {
             }.background(Color(red:39/255,green:40/255,blue:59/255).ignoresSafeArea())
                 .searchable(text: $searchText)
                 .onChange(of: searchText) { newValue in
-                    if newValue.count > 2 {
-                        viewModel.searchMovies(withTitle: newValue)
+                    debouncer.run {
+                        if newValue.count > 2 {
+                            viewModel.searchMovies(withTitle: newValue)
+                        }
                     }
                 }
         }
@@ -92,5 +93,21 @@ struct SearchMoviesView: View {
 struct SearchMoviesView_Previews: PreviewProvider {
     static var previews: some View {
         SearchMoviesView()
+    }
+}
+
+class Debouncer {
+    private let delay: TimeInterval
+    private var timer: Timer?
+    
+    init(delay: TimeInterval) {
+        self.delay = delay
+    }
+    
+    func run(action: @escaping () -> Void) {
+        timer?.invalidate()
+        timer = Timer.scheduledTimer(withTimeInterval: delay, repeats: false, block: { _ in
+            action()
+        })
     }
 }
